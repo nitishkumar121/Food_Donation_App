@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>641107579438-o4o5tpkcia8e42ojmf91fnr77cipuvo5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.641107579438-o4o5tpkcia8e42ojmf91fnr77cipuvo5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCl3DB6U0_b5ZUMyvBoW5_FPKl9r-LmGNE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>641107579438</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Appinventiv.FoodDonation</string>
+	<key>PROJECT_ID</key>
+	<string>food-donation-44e13</string>
+	<key>STORAGE_BUCKET</key>
+	<string>food-donation-44e13.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:641107579438:ios:109e23ee1ca8afd7ff05bf</string>
+</dict>
+</plist>

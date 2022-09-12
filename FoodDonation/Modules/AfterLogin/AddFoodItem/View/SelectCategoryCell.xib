@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GoogleSans-Regular.ttf">
+            <string>GoogleSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SelectCategoryCell" id="gTV-IL-0wX" customClass="SelectCategoryCell" customModule="FoodDonation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="93" height="35"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="93" height="35"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgO-9B-KJf">
+                        <rect key="frame" x="0.0" y="0.0" width="93" height="35"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pure Vegetarian" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4K-ed-i3P">
+                                <rect key="frame" x="15" y="0.0" width="40" height="35"/>
+                                <fontDescription key="fontDescription" name="GoogleSans-Regular" family="Google Sans" pointSize="11"/>
+                                <color key="textColor" name="englishLanguageButtonColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcv-w4-b30">
+                                <rect key="frame" x="65" y="8.5" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="8Nt-zY-Mkb"/>
+                                    <constraint firstAttribute="width" constant="18" id="yaw-OC-3dx"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="icTagClose"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zcv-w4-b30" firstAttribute="leading" secondItem="n4K-ed-i3P" secondAttribute="trailing" constant="10" id="0lO-U1-J03"/>
+                            <constraint firstAttribute="trailing" secondItem="zcv-w4-b30" secondAttribute="trailing" constant="10" id="apo-AY-iRk"/>
+                            <constraint firstItem="n4K-ed-i3P" firstAttribute="top" secondItem="bgO-9B-KJf" secondAttribute="top" id="cah-ji-KbW"/>
+                            <constraint firstAttribute="bottom" secondItem="n4K-ed-i3P" secondAttribute="bottom" id="hnA-75-ScK"/>
+                            <constraint firstItem="zcv-w4-b30" firstAttribute="centerY" secondItem="bgO-9B-KJf" secondAttribute="centerY" id="nAE-6m-2m5"/>
+                            <constraint firstItem="n4K-ed-i3P" firstAttribute="leading" secondItem="bgO-9B-KJf" secondAttribute="leading" constant="15" id="sTs-kN-qTI"/>
+                        </constraints>
+                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="0.0" bottom="8" trailing="8"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="englishLanguageButtonColor"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bgO-9B-KJf" secondAttribute="trailing" id="04F-o3-hjf"/>
+                <constraint firstItem="bgO-9B-KJf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ntz-6o-2wJ"/>
+                <constraint firstItem="bgO-9B-KJf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Q4p-Ea-1NM"/>
+                <constraint firstAttribute="bottom" secondItem="bgO-9B-KJf" secondAttribute="bottom" id="q7d-GW-20O"/>
+            </constraints>
+            <size key="customSize" width="93" height="80"/>
+            <connections>
+                <outlet property="deleteButton" destination="zcv-w4-b30" id="clT-Qb-sCK"/>
+                <outlet property="selectCategoryName" destination="n4K-ed-i3P" id="TnI-bX-tuu"/>
+            </connections>
+            <point key="canvasLocation" x="94.927536231884062" y="53.90625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icTagClose" width="19.5" height="19.5"/>
+        <namedColor name="englishLanguageButtonColor">
+            <color red="0.89800000190734863" green="0.16899999976158142" blue="0.32199999690055847" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

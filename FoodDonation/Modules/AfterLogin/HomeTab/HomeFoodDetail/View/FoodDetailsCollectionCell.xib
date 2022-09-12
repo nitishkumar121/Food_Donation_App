@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FoodDetailsCollectionCell" id="gTV-IL-0wX" customClass="FoodDetailsCollectionCell" customModule="FoodDonation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="256"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="377" height="256"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RnA-HP-vgj">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="256"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icJoinRestaurantBg" translatesAutoresizingMaskIntoConstraints="NO" id="18B-8e-CF1">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="256"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="18B-8e-CF1" firstAttribute="top" secondItem="RnA-HP-vgj" secondAttribute="top" id="HeI-rV-YEr"/>
+                            <constraint firstItem="18B-8e-CF1" firstAttribute="leading" secondItem="RnA-HP-vgj" secondAttribute="leading" id="c7O-xA-h0j"/>
+                            <constraint firstItem="18B-8e-CF1" firstAttribute="top" secondItem="RnA-HP-vgj" secondAttribute="top" id="dDb-vx-by1"/>
+                            <constraint firstItem="18B-8e-CF1" firstAttribute="leading" secondItem="RnA-HP-vgj" secondAttribute="leading" id="idI-nc-04W"/>
+                            <constraint firstAttribute="bottom" secondItem="18B-8e-CF1" secondAttribute="bottom" id="j4S-dw-Eb1"/>
+                            <constraint firstAttribute="trailing" secondItem="18B-8e-CF1" secondAttribute="trailing" id="n7F-kT-Qqy"/>
+                            <constraint firstAttribute="trailing" secondItem="18B-8e-CF1" secondAttribute="trailing" id="ta4-6r-NZW"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="RnA-HP-vgj" secondAttribute="bottom" id="1tB-Xu-hyq"/>
+                <constraint firstItem="RnA-HP-vgj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8E1-qU-2uh"/>
+                <constraint firstItem="RnA-HP-vgj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Qhs-aS-cdk"/>
+                <constraint firstAttribute="trailing" secondItem="RnA-HP-vgj" secondAttribute="trailing" id="Y56-w8-GeT"/>
+            </constraints>
+            <size key="customSize" width="377" height="256"/>
+            <connections>
+                <outlet property="cellImage" destination="18B-8e-CF1" id="nvj-M3-dTz"/>
+            </connections>
+            <point key="canvasLocation" x="205.07246376811597" y="57.589285714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icJoinRestaurantBg" width="345" height="150"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

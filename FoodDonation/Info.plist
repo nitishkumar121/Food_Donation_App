@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>please allow to see your Location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>please allow to see your Location</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>please allow to see your Location</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1893473150839467</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.505800088713-5hlm7l7e87s5br2fkeo6v6dav5oldd9d</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>1893473150839467</string>
+	<key>FacebookClientToken</key>
+	<string>e3be5353a49dacd7a25bbe9d88671263</string>
+	<key>FacebookDisplayName</key>
+	<string>Food Donation</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fbauth</string>
+		<string>fb-messenger-share-api</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Nunito-Bold.ttf</string>
+		<string>GoogleSans-Bold.ttf</string>
+		<string>GoogleSans-BoldItalic.ttf</string>
+		<string>GoogleSans-Italic.ttf</string>
+		<string>GoogleSans-Medium.ttf</string>
+		<string>GoogleSans-MediumItalic.ttf</string>
+		<string>GoogleSans-Regular.ttf</string>
+		<string>SFUIText-Bold.ttf</string>
+	</array>
+</dict>
+</plist>

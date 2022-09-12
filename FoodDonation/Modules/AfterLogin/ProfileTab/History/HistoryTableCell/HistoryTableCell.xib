@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GoogleSans-Bold.ttf">
+            <string>GoogleSans-Bold</string>
+        </array>
+        <array key="GoogleSans-Regular.ttf">
+            <string>GoogleSans-Regular</string>
+        </array>
+        <array key="Nunito-Bold.ttf">
+            <string>Nunito-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistoryTableCell" rowHeight="143" id="KGk-i7-Jjw" customClass="HistoryTableCell" customModule="FoodDonation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorialGraphicThree" translatesAutoresizingMaskIntoConstraints="NO" id="vVc-al-ajt">
+                        <rect key="frame" x="12.5" y="12.5" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="4ee-zV-ecY"/>
+                            <constraint firstAttribute="width" constant="100" id="tC2-3S-7Dc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACCEPTED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxo-aw-5Xu">
+                        <rect key="frame" x="127.5" y="13" width="64" height="15.5"/>
+                        <fontDescription key="fontDescription" name="GoogleSans-Bold" family="Google Sans" pointSize="12"/>
+                        <color key="textColor" red="0.074509803921568626" green="0.85490196078431369" blue="0.64313725490196072" alpha="0.60361593655589119" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pure Vegetarian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLS-vh-9Zz">
+                        <rect key="frame" x="127.5" y="54" width="78" height="14"/>
+                        <fontDescription key="fontDescription" name="GoogleSans-Regular" family="Google Sans" pointSize="11"/>
+                        <color key="textColor" name="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strawberry Pie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uhx-bz-0LG">
+                        <rect key="frame" x="127.5" y="33.5" width="105" height="20.5"/>
+                        <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="15"/>
+                        <color key="textColor" name="black"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mohammed Al-Salhi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRO-cw-vkX">
+                        <rect key="frame" x="154" y="89" width="100" height="14"/>
+                        <fontDescription key="fontDescription" name="GoogleSans-Regular" family="Google Sans" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icProfileImgPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="q6e-3B-Mkz">
+                        <rect key="frame" x="127.5" y="88" width="18" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="18" id="TN1-dV-ZmU"/>
+                            <constraint firstAttribute="height" constant="18" id="Zgs-kc-3od"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="9"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.79607843137254897" green="0.80000000000000004" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0dl-BB-cJb">
+                        <rect key="frame" x="361" y="13" width="45" height="12"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icHistoryLocation" translatesAutoresizingMaskIntoConstraints="NO" id="keq-4U-8ui">
+                                <rect key="frame" x="0.0" y="0.0" width="9" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="YRD-84-DfJ"/>
+                                    <constraint firstAttribute="width" constant="9" id="ayf-4x-xOV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.5 km" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fV-F7-ESS">
+                                <rect key="frame" x="14" y="0.0" width="31" height="12"/>
+                                <fontDescription key="fontDescription" name="GoogleSans-Regular" family="Google Sans" pointSize="11"/>
+                                <color key="textColor" name="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icRestroThumbnail" translatesAutoresizingMaskIntoConstraints="NO" id="1ES-Nc-X5I">
+                        <rect key="frame" x="386" y="88" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="LEY-Yg-kYd"/>
+                            <constraint firstAttribute="width" constant="20" id="NIZ-Hi-U3C"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="vVc-al-ajt" secondAttribute="bottom" constant="12.5" id="0Mi-QX-vO6"/>
+                    <constraint firstItem="q6e-3B-Mkz" firstAttribute="leading" secondItem="yLS-vh-9Zz" secondAttribute="leading" id="2yd-Vy-Hbb"/>
+                    <constraint firstItem="MRO-cw-vkX" firstAttribute="leading" secondItem="q6e-3B-Mkz" secondAttribute="trailing" constant="8.5" id="66O-KH-Z99"/>
+                    <constraint firstAttribute="trailing" secondItem="0dl-BB-cJb" secondAttribute="trailing" constant="15" id="6JI-cJ-HHr"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Uhx-bz-0LG" secondAttribute="trailing" constant="10" id="9fk-Zm-Ogj"/>
+                    <constraint firstItem="yLS-vh-9Zz" firstAttribute="leading" secondItem="Uhx-bz-0LG" secondAttribute="leading" id="9vf-eS-hfm"/>
+                    <constraint firstItem="vVc-al-ajt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12.5" id="Awj-z4-5LG"/>
+                    <constraint firstItem="fxo-aw-5Xu" firstAttribute="leading" secondItem="vVc-al-ajt" secondAttribute="trailing" constant="15" id="BiP-iK-wm7"/>
+                    <constraint firstItem="1ES-Nc-X5I" firstAttribute="trailing" secondItem="0dl-BB-cJb" secondAttribute="trailing" id="F5e-Qx-aYx"/>
+                    <constraint firstItem="1ES-Nc-X5I" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MRO-cw-vkX" secondAttribute="trailing" constant="10" id="Ffb-ai-8Hz"/>
+                    <constraint firstItem="Uhx-bz-0LG" firstAttribute="top" secondItem="fxo-aw-5Xu" secondAttribute="bottom" constant="5" id="McB-jd-GBw"/>
+                    <constraint firstItem="yLS-vh-9Zz" firstAttribute="top" secondItem="Uhx-bz-0LG" secondAttribute="bottom" id="OV4-fz-4Ju"/>
+                    <constraint firstItem="0dl-BB-cJb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fxo-aw-5Xu" secondAttribute="trailing" constant="20" id="SH7-iV-Dwt"/>
+                    <constraint firstItem="vVc-al-ajt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12.5" id="bCH-rm-5g9"/>
+                    <constraint firstItem="fxo-aw-5Xu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="dW8-gg-hgc"/>
+                    <constraint firstItem="MRO-cw-vkX" firstAttribute="top" secondItem="q6e-3B-Mkz" secondAttribute="top" constant="1" id="dcq-d6-FIG"/>
+                    <constraint firstItem="1ES-Nc-X5I" firstAttribute="top" secondItem="0dl-BB-cJb" secondAttribute="bottom" constant="63" id="dhd-RZ-Txo"/>
+                    <constraint firstItem="Uhx-bz-0LG" firstAttribute="leading" secondItem="fxo-aw-5Xu" secondAttribute="leading" id="ehT-6M-Z2J"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yLS-vh-9Zz" secondAttribute="trailing" constant="10" id="g3Y-a8-Ots"/>
+                    <constraint firstItem="0dl-BB-cJb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="jrA-hS-C2G"/>
+                    <constraint firstItem="q6e-3B-Mkz" firstAttribute="top" secondItem="yLS-vh-9Zz" secondAttribute="bottom" constant="20" id="n7H-GR-RmR"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="10"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="210.86956521739131" y="114.84375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icHistoryLocation" width="9" height="11.5"/>
+        <image name="icProfileImgPlaceholder" width="88.5" height="88.5"/>
+        <image name="icRestroThumbnail" width="27" height="27"/>
+        <image name="tutorialGraphicThree" width="375" height="667"/>
+        <namedColor name="black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textColor">
+            <color red="0.57300001382827759" green="0.57999998331069946" blue="0.67100000381469727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

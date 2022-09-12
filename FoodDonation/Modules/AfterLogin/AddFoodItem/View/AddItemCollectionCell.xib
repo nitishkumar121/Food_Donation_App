@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddItemCollectionCell" id="gTV-IL-0wX" customClass="AddItemCollectionCell" customModule="FoodDonation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JxL-Za-MFc">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icJoinAmbassadorBg" translatesAutoresizingMaskIntoConstraints="NO" id="gTL-nU-jSS">
+                                <rect key="frame" x="0.0" y="5" width="80" height="75"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c70-vo-tDt">
+                                <rect key="frame" x="57" y="1" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="6cF-di-P6W"/>
+                                    <constraint firstAttribute="height" constant="22" id="SF5-hE-Pks"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="icAddImgClose"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gTL-nU-jSS" firstAttribute="top" secondItem="JxL-Za-MFc" secondAttribute="top" constant="5" id="6e4-GG-Hhc"/>
+                            <constraint firstItem="gTL-nU-jSS" firstAttribute="leading" secondItem="JxL-Za-MFc" secondAttribute="leading" id="E2c-Fn-zS6"/>
+                            <constraint firstAttribute="trailing" secondItem="gTL-nU-jSS" secondAttribute="trailing" id="Yft-x7-V2M"/>
+                            <constraint firstAttribute="bottom" secondItem="gTL-nU-jSS" secondAttribute="bottom" id="ZRB-SA-94t"/>
+                            <constraint firstAttribute="trailing" secondItem="c70-vo-tDt" secondAttribute="trailing" constant="1" id="wiq-9P-mHJ"/>
+                            <constraint firstItem="c70-vo-tDt" firstAttribute="top" secondItem="JxL-Za-MFc" secondAttribute="top" constant="1" id="ysw-8J-QM5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="JxL-Za-MFc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="E0e-Ux-x57"/>
+                <constraint firstItem="JxL-Za-MFc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="XQd-5i-Q1W"/>
+                <constraint firstAttribute="bottom" secondItem="JxL-Za-MFc" secondAttribute="bottom" id="iVZ-FR-TQz"/>
+                <constraint firstAttribute="trailing" secondItem="JxL-Za-MFc" secondAttribute="trailing" id="mFo-Uc-E0l"/>
+            </constraints>
+            <size key="customSize" width="192" height="177"/>
+            <connections>
+                <outlet property="addImage" destination="gTL-nU-jSS" id="gSi-cB-7EV"/>
+                <outlet property="deleteButton" destination="c70-vo-tDt" id="euS-TK-vqa"/>
+            </connections>
+            <point key="canvasLocation" x="7.2463768115942031" y="105.13392857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icAddImgClose" width="25" height="25"/>
+        <image name="icJoinAmbassadorBg" width="345" height="150"/>
+    </resources>
+</document>
